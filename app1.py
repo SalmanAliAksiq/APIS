@@ -25,7 +25,7 @@ def scrape_data_api():
     except Exception as e:
         return jsonify(
             message = e,
-            status = 500
+            status = 600
             )
 
 
