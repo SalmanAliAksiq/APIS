@@ -20,7 +20,7 @@ def scrape_data_api():
         return jsonify(
             data = str(new),
             message = "Successfully scrape",
-            status = 200vvvhv
+            status = 200
         )
     except Exception as e:
         return jsonify(
